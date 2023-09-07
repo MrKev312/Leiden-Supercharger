@@ -3,7 +3,7 @@
 // @description  Enhances the Leiden University course sites with a unified and improved design
 // @namespace    https://liacs.leidenuniv.nl/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leidenuniv.nl
-// @version      1.0
+// @version      1.1
 // @author       MrKev312
 // @match        https://liacs.leidenuniv.nl/~*/
 // @match        https://liacs.leidenuniv.nl/~*/*.html
