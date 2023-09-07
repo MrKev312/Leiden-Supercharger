@@ -171,6 +171,7 @@ var searchURL;
         'https:\/\/liacs.leidenuniv.nl\/~kosterswa\/pm\/': PMHTML,
         'https:\/\/liacs\.leidenuniv\.nl\/~stefanovtp\/courses\/[A-Za-z0-9_]+\/': PlainHTML,
         'https:\/\/liacs\.leidenuniv\.nl\/~vlietrvan1\/[A-Za-z0-9_]+\/': PlainHTML,
+        'https:\/\/liacs\.leidenuniv\.nl\/~hoogeboomhj\/[A-Za-z0-9_]+\/': PlainHTML,
         'https:\/\/liacs\.leidenuniv\.nl\/~basoldh\/education\/[A-Za-z0-9_]+\/': BasoldhHTML,
 
     };
