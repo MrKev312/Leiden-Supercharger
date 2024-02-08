@@ -3,7 +3,7 @@
 // @description  Enhances the Leiden University course sites with a unified and improved design
 // @namespace    https://liacs.leidenuniv.nl/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leidenuniv.nl
-// @version      1.2
+// @version      1.2.1
 // @author       MrKev312
 // @match        https://liacs.leidenuniv.nl/~*/
 // @match        https://liacs.leidenuniv.nl/~*/*.html
@@ -25,7 +25,7 @@ body {
     width: 1000px;
     max-width: 90%;
     margin: 0 auto 50px;
-    padding: 0 25px;
+    padding: 25px 25px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -169,6 +169,7 @@ var searchURL;
     var logMessage = "Script loaded\n\t";
     var urlFunctions = {
         'https:\/\/liacs.leidenuniv.nl\/~kosterswa\/pm\/': PMHTML,
+        'https:\/\/liacs.leidenuniv.nl\/~kosterswa/[A-Za-z0-9_]+': PlainHTML,
         'https:\/\/liacs\.leidenuniv\.nl\/~stefanovtp\/courses\/[A-Za-z0-9_]+\/': PlainHTML,
         'https:\/\/liacs\.leidenuniv\.nl\/~vlietrvan1\/[A-Za-z0-9_]+\/': PlainHTML,
         'https:\/\/liacs\.leidenuniv\.nl\/~hoogeboomhj\/[A-Za-z0-9_]+\/': PlainHTML,
